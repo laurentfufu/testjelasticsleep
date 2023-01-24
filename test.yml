@@ -1,0 +1,11 @@
+---
+type: update
+version: 1.5.2
+name: testlfu
+id: testlfu
+
+globals:
+  repoRootUrl: https://github.com/Jahia/jelastic-packages/raw/main
+
+onInstall:
+  - sleep: 600000
